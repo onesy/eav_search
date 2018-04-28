@@ -1,0 +1,30 @@
+{
+    "name": "sunyuw/eav_search",
+    "description": "用于处理非常复杂条件的匹配",
+    "type": "library",
+    "require": {
+      "php": ">=7.2.0",
+        "league/climate": "^3.3",
+        "vlucas/phpdotenv": "^2.4",
+        "catfan/medoo": "^1.5",
+        "php-di/php-di": "^6.0",
+        "ocramius/proxy-manager": "^2.2",
+        "rych/random": "^0.1.0"
+    },
+    "require-dev": {
+        "php": ">=7.2.0",
+        "league/climate": "^3.3",
+        "doctrine/orm": "^2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunyuw",
+            "email": "leentingOne@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"eavSearch\\": "eavSearch/"}
+    },
+    "minimum-stability": "stable"
+}
